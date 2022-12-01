@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27103847E32683665DB9B28E /* Pods_AzureUI_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FF414A5B3AB00DABFD891B /* Pods_AzureUI_Sample.framework */; };
+		27103847E32683665DB9B28E /* Pods_AzureUI_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FF414A5B3AB00DABFD891B /* Pods_AzureUI_Sample.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		7530500D2939423000BD027F /* FluentUIResources-ios.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 753050072939423000BD027F /* FluentUIResources-ios.bundle */; };
 		75FBDE0129393D8A007AD04B /* AzureCommunicationUICalling.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75FBDDFC29393D52007AD04B /* AzureCommunicationUICalling.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		75FBDE0329393E7C007AD04B /* AzureCommunicationCalling.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FBDE0229393E7C007AD04B /* AzureCommunicationCalling.xcframework */; };
@@ -178,7 +178,6 @@
 		CDAA4B05E9DD063AAF1CCA43 /* Pods_AzureUI_SampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureUI_SampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBC7735E18E48AD6E8E1D334 /* Pods-AzureUI Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureUI Sample.debug.xcconfig"; path = "Target Support Files/Pods-AzureUI Sample/Pods-AzureUI Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		F0835245C1CAAAE22D988276 /* Pods_AzureUI_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureUI_SampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F958FAE4F65513D92FCB5E00 /* Pods_AzureUIWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureUIWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,14 +268,6 @@
 			path = AzureUIWrapper;
 			sourceTree = "<group>";
 		};
-		ABF081202938C0E20046EF82 /* Recovered References */ = {
-			isa = PBXGroup;
-			children = (
-				F958FAE4F65513D92FCB5E00 /* Pods_AzureUIWrapper.framework */,
-			);
-			name = "Recovered References";
-			sourceTree = "<group>";
-		};
 		ABF0E8192936028500AE4FC1 = {
 			isa = PBXGroup;
 			children = (
@@ -287,7 +278,6 @@
 				ABF0E8232936028500AE4FC1 /* Products */,
 				DD5C3BEAC0EE42D1AC6C5BEA /* Pods */,
 				914DDEB0C1E50F3F4C7334A8 /* Frameworks */,
-				ABF081202938C0E20046EF82 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};

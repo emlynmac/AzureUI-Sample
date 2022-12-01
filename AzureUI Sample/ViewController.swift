@@ -14,12 +14,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
 
         if #available(iOS 14.0, *) {
-            if let bundle = Bundle(identifier: "it.andreamannucci.AzureUIWrapper"),
+            if let bundle = Bundle(path: Bundle.main.privateFrameworksPath!.appending("/AzureUIWrapper.framework")),
                let principleClass = bundle.principalClass as? UIViewController.Type {
                 let controller = principleClass.init()
+                print("loaded Hybrid VC")
                 self.addChild(controller)
                 view.addSubview(controller.view)
             }
+        } else {
+            print("Did not load hybrid VC")
         }
     }
 }
