@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EC0080E23698BAA43F6D38B /* Pods_AzureUIWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58244BE9B201EA597B29BF6 /* Pods_AzureUIWrapper.framework */; };
+		27103847E32683665DB9B28E /* Pods_AzureUI_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FF414A5B3AB00DABFD891B /* Pods_AzureUI_Sample.framework */; };
+		7530500D2939423000BD027F /* FluentUIResources-ios.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 753050072939423000BD027F /* FluentUIResources-ios.bundle */; };
+		75FBDE0129393D8A007AD04B /* AzureCommunicationUICalling.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75FBDDFC29393D52007AD04B /* AzureCommunicationUICalling.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		75FBDE0329393E7C007AD04B /* AzureCommunicationCalling.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FBDE0229393E7C007AD04B /* AzureCommunicationCalling.xcframework */; };
+		75FBDE0D29393EB0007AD04B /* AzureCommunicationCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75FBDE0A29393E84007AD04B /* AzureCommunicationCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		75FBDE0E29393EB0007AD04B /* AzureCommunicationCalling.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75FBDE0229393E7C007AD04B /* AzureCommunicationCalling.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		75FBDE1D29394106007AD04B /* libFluentUI.a in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75FBDE1A293940C8007AD04B /* libFluentUI.a */; };
 		7692A0B70082BE71419BDC58 /* Pods_AzureUI_SampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA4B05E9DD063AAF1CCA43 /* Pods_AzureUI_SampleUITests.framework */; };
 		ABA9CA102938A6FF006A8146 /* AzureUIWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA9CA0F2938A6FF006A8146 /* AzureUIWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABA9CA1C2938AB64006A8146 /* HybridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA9CA192938AAE6006A8146 /* HybridViewController.swift */; };
-		ABA9CA242938B8B2006A8146 /* Pods_AzureUIWrapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F958FAE4F65513D92FCB5E00 /* Pods_AzureUIWrapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ABA9CA272938B985006A8146 /* Azure-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABA9CA262938B985006A8146 /* Azure-Info.plist */; };
-		ABF081212938C2BF0046EF82 /* AzureUIWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA9CA0D2938A6FF006A8146 /* AzureUIWrapper.framework */; };
 		ABF081222938C2BF0046EF82 /* AzureUIWrapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ABA9CA0D2938A6FF006A8146 /* AzureUIWrapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ABF0E8262936028500AE4FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF0E8252936028500AE4FC1 /* AppDelegate.swift */; };
 		ABF0E82A2936028500AE4FC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF0E8292936028500AE4FC1 /* ViewController.swift */; };
@@ -27,6 +31,69 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		75FBDDFB29393D52007AD04B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75FBDDF629393D52007AD04B /* AzureCommunicationUICalling.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8659FC52602A22000C807DE;
+			remoteInfo = AzureCommunicationUICalling;
+		};
+		75FBDDFD29393D52007AD04B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75FBDDF629393D52007AD04B /* AzureCommunicationUICalling.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FBCB69A2645285100F57EEA;
+			remoteInfo = AzureCommunicationUICallingTests;
+		};
+		75FBDDFF29393D70007AD04B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75FBDDF629393D52007AD04B /* AzureCommunicationUICalling.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A8659FC42602A22000C807DE;
+			remoteInfo = AzureCommunicationUICalling;
+		};
+		75FBDE0929393E84007AD04B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75FBDE0429393E84007AD04B /* AzureCommunicationCommon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0A3A5EB82316DB1E00473FDA;
+			remoteInfo = AzureCommunicationCommon;
+		};
+		75FBDE0B29393E84007AD04B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75FBDE0429393E84007AD04B /* AzureCommunicationCommon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0A3A5EC12316DB1E00473FDA;
+			remoteInfo = AzureCommunicationCommonTests;
+		};
+		75FBDE0F29393EB9007AD04B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75FBDE0429393E84007AD04B /* AzureCommunicationCommon.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3A5EB72316DB1E00473FDA;
+			remoteInfo = AzureCommunicationCommon;
+		};
+		75FBDE17293940C8007AD04B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75FBDE11293940C8007AD04B /* FluentUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A5DA88FC226FAA01000A8EA8;
+			remoteInfo = FluentUIResources;
+		};
+		75FBDE19293940C8007AD04B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75FBDE11293940C8007AD04B /* FluentUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8FD01166228A820600D25925;
+			remoteInfo = FluentUILib;
+		};
+		75FBDE1B293940C8007AD04B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75FBDE11293940C8007AD04B /* FluentUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A5CEC15A20D980B30016922A;
+			remoteInfo = FluentUITests;
+		};
 		ABF081232938C2BF0046EF82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ABF0E81A2936028500AE4FC1 /* Project object */;
@@ -57,7 +124,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				ABA9CA242938B8B2006A8146 /* Pods_AzureUIWrapper.framework in Embed Frameworks */,
+				75FBDE1D29394106007AD04B /* libFluentUI.a in Embed Frameworks */,
+				75FBDE0D29393EB0007AD04B /* AzureCommunicationCommon.framework in Embed Frameworks */,
+				75FBDE0E29393EB0007AD04B /* AzureCommunicationCalling.xcframework in Embed Frameworks */,
+				75FBDE0129393D8A007AD04B /* AzureCommunicationUICalling.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,10 +146,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		10BA065EA1D574FAB59FE911 /* Pods-AzureUIWrapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureUIWrapper.debug.xcconfig"; path = "Target Support Files/Pods-AzureUIWrapper/Pods-AzureUIWrapper.debug.xcconfig"; sourceTree = "<group>"; };
+		16FF414A5B3AB00DABFD891B /* Pods_AzureUI_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureUI_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D799D1D9429660FCC24F2F6 /* Pods-AzureUI Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureUI Sample.release.xcconfig"; path = "Target Support Files/Pods-AzureUI Sample/Pods-AzureUI Sample.release.xcconfig"; sourceTree = "<group>"; };
 		4663CECD5B0CA3DE6B1908C0 /* Pods-AzureUI Sample-AzureUI SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureUI Sample-AzureUI SampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-AzureUI Sample-AzureUI SampleUITests/Pods-AzureUI Sample-AzureUI SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D984F6EB4B28963DEB5CE81 /* Pods-AzureUI SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureUI SampleUITests.release.xcconfig"; path = "Target Support Files/Pods-AzureUI SampleUITests/Pods-AzureUI SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		61180275BAE4BBAC55434339 /* Pods-AzureUI SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureUI SampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-AzureUI SampleUITests/Pods-AzureUI SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		753050072939423000BD027F /* FluentUIResources-ios.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "FluentUIResources-ios.bundle"; path = "DerivedData/AzureUI Sample/Build/Products/Debug-iphonesimulator/FluentUIResources-ios.bundle"; sourceTree = "<group>"; };
+		75FBDDF629393D52007AD04B /* AzureCommunicationUICalling.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AzureCommunicationUICalling.xcodeproj; path = "communication-ui-library-ios-AzureCommunicationUICalling_1.1.0/AzureCommunicationUI/sdk/AzureCommunicationUICalling/AzureCommunicationUICalling.xcodeproj"; sourceTree = "<group>"; };
+		75FBDE0229393E7C007AD04B /* AzureCommunicationCalling.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AzureCommunicationCalling.xcframework; path = AzureUIWrapper/AzureCommunicationCalling.xcframework; sourceTree = "<group>"; };
+		75FBDE0429393E84007AD04B /* AzureCommunicationCommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AzureCommunicationCommon.xcodeproj; path = AzureCommunicationCommon/AzureCommunicationCommon.xcodeproj; sourceTree = "<group>"; };
+		75FBDE11293940C8007AD04B /* FluentUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FluentUI.xcodeproj; path = "fluentui-apple-0.8.8/ios/FluentUI.xcodeproj"; sourceTree = "<group>"; };
 		9E0DF23FACC6A2B08CD75487 /* Pods-AzureUI SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureUI SampleTests.debug.xcconfig"; path = "Target Support Files/Pods-AzureUI SampleTests/Pods-AzureUI SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0B02D37B0F2E6119A7021F8 /* Pods-AzureUI Sample-AzureUI SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureUI Sample-AzureUI SampleUITests.release.xcconfig"; path = "Target Support Files/Pods-AzureUI Sample-AzureUI SampleUITests/Pods-AzureUI Sample-AzureUI SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		ABA9CA0D2938A6FF006A8146 /* AzureUIWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AzureUIWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,9 +175,8 @@
 		ABF0E8462936028800AE4FC1 /* AzureUI_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureUI_SampleUITests.swift; sourceTree = "<group>"; };
 		ABF0E8482936028800AE4FC1 /* AzureUI_SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureUI_SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B7975028ABBF73875EDEA243 /* Pods-AzureUI SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureUI SampleTests.release.xcconfig"; path = "Target Support Files/Pods-AzureUI SampleTests/Pods-AzureUI SampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		BAE807C059929710B6DCF0F8 /* Pods-AzureUIWrapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureUIWrapper.release.xcconfig"; path = "Target Support Files/Pods-AzureUIWrapper/Pods-AzureUIWrapper.release.xcconfig"; sourceTree = "<group>"; };
 		CDAA4B05E9DD063AAF1CCA43 /* Pods_AzureUI_SampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureUI_SampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E58244BE9B201EA597B29BF6 /* Pods_AzureUIWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureUIWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC7735E18E48AD6E8E1D334 /* Pods-AzureUI Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureUI Sample.debug.xcconfig"; path = "Target Support Files/Pods-AzureUI Sample/Pods-AzureUI Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		F0835245C1CAAAE22D988276 /* Pods_AzureUI_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureUI_SampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F958FAE4F65513D92FCB5E00 /* Pods_AzureUIWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureUIWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -111,7 +186,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EC0080E23698BAA43F6D38B /* Pods_AzureUIWrapper.framework in Frameworks */,
+				75FBDE0329393E7C007AD04B /* AzureCommunicationCalling.xcframework in Frameworks */,
+				7530500D2939423000BD027F /* FluentUIResources-ios.bundle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +195,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF081212938C2BF0046EF82 /* AzureUIWrapper.framework in Frameworks */,
+				27103847E32683665DB9B28E /* Pods_AzureUI_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,12 +218,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75FBDDF729393D52007AD04B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75FBDDFC29393D52007AD04B /* AzureCommunicationUICalling.framework */,
+				75FBDDFE29393D52007AD04B /* AzureCommunicationUICallingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75FBDE0529393E84007AD04B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75FBDE0A29393E84007AD04B /* AzureCommunicationCommon.framework */,
+				75FBDE0C29393E84007AD04B /* AzureCommunicationCommonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75FBDE12293940C8007AD04B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75FBDE18293940C8007AD04B /* FluentUIResources-ios.bundle */,
+				75FBDE1A293940C8007AD04B /* libFluentUI.a */,
+				75FBDE1C293940C8007AD04B /* FluentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		914DDEB0C1E50F3F4C7334A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				753050072939423000BD027F /* FluentUIResources-ios.bundle */,
+				75FBDE0229393E7C007AD04B /* AzureCommunicationCalling.xcframework */,
 				F0835245C1CAAAE22D988276 /* Pods_AzureUI_SampleTests.framework */,
 				CDAA4B05E9DD063AAF1CCA43 /* Pods_AzureUI_SampleUITests.framework */,
-				E58244BE9B201EA597B29BF6 /* Pods_AzureUIWrapper.framework */,
+				16FF414A5B3AB00DABFD891B /* Pods_AzureUI_Sample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,6 +261,9 @@
 		ABA9CA0E2938A6FF006A8146 /* AzureUIWrapper */ = {
 			isa = PBXGroup;
 			children = (
+				75FBDE0429393E84007AD04B /* AzureCommunicationCommon.xcodeproj */,
+				75FBDDF629393D52007AD04B /* AzureCommunicationUICalling.xcodeproj */,
+				75FBDE11293940C8007AD04B /* FluentUI.xcodeproj */,
 				ABA9CA0F2938A6FF006A8146 /* AzureUIWrapper.h */,
 			);
 			path = AzureUIWrapper;
@@ -234,8 +343,8 @@
 				B7975028ABBF73875EDEA243 /* Pods-AzureUI SampleTests.release.xcconfig */,
 				61180275BAE4BBAC55434339 /* Pods-AzureUI SampleUITests.debug.xcconfig */,
 				4D984F6EB4B28963DEB5CE81 /* Pods-AzureUI SampleUITests.release.xcconfig */,
-				10BA065EA1D574FAB59FE911 /* Pods-AzureUIWrapper.debug.xcconfig */,
-				BAE807C059929710B6DCF0F8 /* Pods-AzureUIWrapper.release.xcconfig */,
+				EBC7735E18E48AD6E8E1D334 /* Pods-AzureUI Sample.debug.xcconfig */,
+				3D799D1D9429660FCC24F2F6 /* Pods-AzureUI Sample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -258,7 +367,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABA9CA152938A6FF006A8146 /* Build configuration list for PBXNativeTarget "AzureUIWrapper" */;
 			buildPhases = (
-				DC08197CA8513E8C3BFEA456 /* [CP] Check Pods Manifest.lock */,
 				ABA9CA082938A6FF006A8146 /* Headers */,
 				ABA9CA092938A6FF006A8146 /* Sources */,
 				ABA9CA0A2938A6FF006A8146 /* Frameworks */,
@@ -268,6 +376,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				75FBDE1029393EB9007AD04B /* PBXTargetDependency */,
+				75FBDE0029393D70007AD04B /* PBXTargetDependency */,
 			);
 			name = AzureUIWrapper;
 			productName = AzureUIWrapper;
@@ -278,6 +388,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABF0E84C2936028800AE4FC1 /* Build configuration list for PBXNativeTarget "AzureUI Sample" */;
 			buildPhases = (
+				4CCEBDCAE7B3279C9E69B11D /* [CP] Check Pods Manifest.lock */,
 				ABF0E81E2936028500AE4FC1 /* Sources */,
 				ABF0E81F2936028500AE4FC1 /* Frameworks */,
 				ABF0E8202936028500AE4FC1 /* Resources */,
@@ -369,6 +480,20 @@
 			mainGroup = ABF0E8192936028500AE4FC1;
 			productRefGroup = ABF0E8232936028500AE4FC1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 75FBDE0529393E84007AD04B /* Products */;
+					ProjectRef = 75FBDE0429393E84007AD04B /* AzureCommunicationCommon.xcodeproj */;
+				},
+				{
+					ProductGroup = 75FBDDF729393D52007AD04B /* Products */;
+					ProjectRef = 75FBDDF629393D52007AD04B /* AzureCommunicationUICalling.xcodeproj */;
+				},
+				{
+					ProductGroup = 75FBDE12293940C8007AD04B /* Products */;
+					ProjectRef = 75FBDE11293940C8007AD04B /* FluentUI.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				ABF0E8212936028500AE4FC1 /* AzureUI Sample */,
@@ -378,6 +503,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		75FBDDFC29393D52007AD04B /* AzureCommunicationUICalling.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AzureCommunicationUICalling.framework;
+			remoteRef = 75FBDDFB29393D52007AD04B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75FBDDFE29393D52007AD04B /* AzureCommunicationUICallingTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AzureCommunicationUICallingTests.xctest;
+			remoteRef = 75FBDDFD29393D52007AD04B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75FBDE0A29393E84007AD04B /* AzureCommunicationCommon.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AzureCommunicationCommon.framework;
+			remoteRef = 75FBDE0929393E84007AD04B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75FBDE0C29393E84007AD04B /* AzureCommunicationCommonTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AzureCommunicationCommonTests.xctest;
+			remoteRef = 75FBDE0B29393E84007AD04B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75FBDE18293940C8007AD04B /* FluentUIResources-ios.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "FluentUIResources-ios.bundle";
+			remoteRef = 75FBDE17293940C8007AD04B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75FBDE1A293940C8007AD04B /* libFluentUI.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFluentUI.a;
+			remoteRef = 75FBDE19293940C8007AD04B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75FBDE1C293940C8007AD04B /* FluentUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FluentUITests.xctest;
+			remoteRef = 75FBDE1B293940C8007AD04B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		ABA9CA0B2938A6FF006A8146 /* Resources */ = {
@@ -415,7 +592,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		DC08197CA8513E8C3BFEA456 /* [CP] Check Pods Manifest.lock */ = {
+		4CCEBDCAE7B3279C9E69B11D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -430,7 +607,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AzureUIWrapper-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AzureUI Sample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -521,6 +698,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		75FBDE0029393D70007AD04B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AzureCommunicationUICalling;
+			targetProxy = 75FBDDFF29393D70007AD04B /* PBXContainerItemProxy */;
+		};
+		75FBDE1029393EB9007AD04B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AzureCommunicationCommon;
+			targetProxy = 75FBDE0F29393EB9007AD04B /* PBXContainerItemProxy */;
+		};
 		ABF081242938C2BF0046EF82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ABA9CA0C2938A6FF006A8146 /* AzureUIWrapper */;
@@ -560,7 +747,6 @@
 /* Begin XCBuildConfiguration section */
 		ABA9CA162938A6FF006A8146 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10BA065EA1D574FAB59FE911 /* Pods-AzureUIWrapper.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -596,7 +782,6 @@
 		};
 		ABA9CA172938A6FF006A8146 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAE807C059929710B6DCF0F8 /* Pods-AzureUIWrapper.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -745,6 +930,7 @@
 		};
 		ABF0E84D2936028800AE4FC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC7735E18E48AD6E8E1D334 /* Pods-AzureUI Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -774,6 +960,7 @@
 		};
 		ABF0E84E2936028800AE4FC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D799D1D9429660FCC24F2F6 /* Pods-AzureUI Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

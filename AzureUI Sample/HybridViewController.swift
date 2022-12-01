@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import AzureCommunicationCalling
+import AzureCommunicationCommon
 import AzureCommunicationUICalling
 
 
